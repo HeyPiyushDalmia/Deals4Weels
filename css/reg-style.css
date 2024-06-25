@@ -1,0 +1,81 @@
+.myrad {
+    display: inline-block;
+    margin-bottom: -2.5rem;
+    font-size: 20px;
+    margin: 4px;
+}
+header {
+    background-color: #131313;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #FFB320;
+}
+
+.register{
+    /* background: -webkit-linear-gradient(left, black, white); */
+     background: -webkit-linear-gradient(left, #FFFACD, #BDB76B);
+
+    /* margin-top: 50px; */
+    /* padding: 3%; */
+}
+
+.register-heading {
+    text-align: center;
+    color: #495057;
+    padding: 10px 0px 20px 0px;
+
+}
+
+.register-left{
+    text-align: center;
+    /* color: #fff; */
+    color: black;
+    margin-top: 4%;
+}
+
+.button-left {
+    border-radius: 10px;
+    width: 215px;
+    background: #BDB76B;
+    font-weight: bold;
+    /* color: #383d41; */
+    color: black;
+    margin-top: 10px;
+}
+.button-left:hover {
+    color: #fff;
+    /* background-color: red; */
+    background-color: grey;
+    /* border-color: red; */
+}
+.register-right{
+    background: #f8f9fa;
+    padding: 16px 17px 10px 60px;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    box-shadow: 8px 11px 20px 0px;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 40%;
+}
+
+
+.btnRegister {
+    float: right;
+    margin: 25px 5%;
+    border: none;
+    border-radius: 50px;
+    padding: 15px;
+    /* background: red; */
+    background: #BDB76B;
+    /* color: #fff; */
+    color: #000000;
+    font-weight: 600;
+    width: 400px;
+    cursor: pointer;
+}
+.btnRegister:hover{
+  background-color: grey;
+}
